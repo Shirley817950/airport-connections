@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Airport Connections</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Import the webpage's javascript file -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="/script.js" defer></script>
+    <body>
+        <h1>Airport Connections</h1>
+        <h3>Please Selection One Option from Below</h23>
+        <h3>Mouse Staying on Nodes to See Airports</h3>
+        <div class="selection">
+            <input type="radio" name="layout" id="force" value="force" checked="checked">
+            <label for="force">Force</label>
+            <input type="radio" name="layout" id="map" value="map">
+            <label for="map">Map</label>
+        </div>
+        <div class="container"></div>
+    </body>
+</html>
