@@ -18,7 +18,6 @@ Promise.all([ // load multiple files
                     .force("x", d3.forceX())
                     .force("y", d3.forceY());
     const geometry = topojson.feature(worldMap, worldMap.objects.countries);
-    //console.log(geometry);
     const projection = d3.geoMercator()
                             .fitExtent([[-width / 2, -height / 2], [width / 3, height]], geometry);
     const path = d3.geoPath()
